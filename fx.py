@@ -1,7 +1,7 @@
 
 def recir_fibo(n):
-#   """Recursive function to
-#   print Fibonacci sequence"""
+   """Recursive function to
+   print Fibonacci sequence"""
    if n <= 1:
        return n
    else:
