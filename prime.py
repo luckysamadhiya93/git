@@ -1,4 +1,4 @@
-class PrimeNum:
+class PrieNum:
   def primenum(self,lower,upper):
     for num in range(lower,upper + 1):
       if num > 1:
@@ -10,7 +10,7 @@ class PrimeNum:
            print(num)  
              
 
-p=PrimeNum()
+p=PrieNum()
 a=int(input("Enter lower :"))
 b=int(input("Enter upper :"))
 p.primenum(a,b)
