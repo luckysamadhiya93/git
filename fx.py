@@ -1,11 +1,11 @@
 
-def recur_fibo(n):
-   """Recursive function to
-   print Fibonacci sequence"""
+def recir_fibo(n):
+#   """Recursive function to
+#   print Fibonacci sequence"""
    if n <= 1:
        return n
    else:
-       return(recur_fibo(n-1) + recur_fibo(n-2))
+       return(recir_fibo(n-1) + recir_fibo(n-2))
 
 
 # take input from the user
@@ -17,4 +17,4 @@ if nterms <= 0:
 else:
    print("Fibonacci sequence:")
    for i in range(nterms):
-       print(recur_fibo(i))
+       print(recir_fibo(i))
